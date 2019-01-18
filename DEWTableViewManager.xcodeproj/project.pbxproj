@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02F908B721F01DF1007569E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F908B621F01DF1007569E9 /* AppDelegate.m */; };
+		02F908BA21F01DF1007569E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F908B921F01DF1007569E9 /* ViewController.m */; };
+		02F908BD21F01DF1007569E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02F908BB21F01DF1007569E9 /* Main.storyboard */; };
+		02F908BF21F01DF4007569E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02F908BE21F01DF4007569E9 /* Assets.xcassets */; };
+		02F908C221F01DF4007569E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02F908C021F01DF4007569E9 /* LaunchScreen.storyboard */; };
+		02F908C521F01DF4007569E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F908C421F01DF4007569E9 /* main.m */; };
+		02F908D821F01F80007569E9 /* DEWTableManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F908D721F01F80007569E9 /* DEWTableManager.m */; };
+		02F908DB21F01F9E007569E9 /* DEWTableStaticSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F908DA21F01F9E007569E9 /* DEWTableStaticSection.m */; };
+		02F908DE21F0201C007569E9 /* DEWTableDynamicSection.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F908DD21F0201C007569E9 /* DEWTableDynamicSection.m */; };
+		02F908E221F026B0007569E9 /* DEWTableStaticCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F908E121F026B0007569E9 /* DEWTableStaticCellModel.m */; };
+		02F908F521F08030007569E9 /* DEWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F908F421F08030007569E9 /* DEWTableViewCell.m */; };
+		3D29EE3C38134FA29D68B0F4 /* libPods-DEWTableViewManager.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C9B45E25F11F41E302EA454 /* libPods-DEWTableViewManager.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		02F908B221F01DF1007569E9 /* DEWTableViewManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DEWTableViewManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		02F908B521F01DF1007569E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		02F908B621F01DF1007569E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		02F908B821F01DF1007569E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		02F908B921F01DF1007569E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		02F908BC21F01DF1007569E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02F908BE21F01DF4007569E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02F908C121F01DF4007569E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02F908C321F01DF4007569E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02F908C421F01DF4007569E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02F908D621F01F80007569E9 /* DEWTableManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DEWTableManager.h; sourceTree = "<group>"; };
+		02F908D721F01F80007569E9 /* DEWTableManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DEWTableManager.m; sourceTree = "<group>"; };
+		02F908D921F01F9E007569E9 /* DEWTableStaticSection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DEWTableStaticSection.h; sourceTree = "<group>"; };
+		02F908DA21F01F9E007569E9 /* DEWTableStaticSection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DEWTableStaticSection.m; sourceTree = "<group>"; };
+		02F908DC21F0201C007569E9 /* DEWTableDynamicSection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DEWTableDynamicSection.h; sourceTree = "<group>"; };
+		02F908DD21F0201C007569E9 /* DEWTableDynamicSection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DEWTableDynamicSection.m; sourceTree = "<group>"; };
+		02F908DF21F02053007569E9 /* DEWTableSectionProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DEWTableSectionProtocol.h; sourceTree = "<group>"; };
+		02F908E021F026B0007569E9 /* DEWTableStaticCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DEWTableStaticCellModel.h; sourceTree = "<group>"; };
+		02F908E121F026B0007569E9 /* DEWTableStaticCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DEWTableStaticCellModel.m; sourceTree = "<group>"; };
+		02F908F321F08030007569E9 /* DEWTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DEWTableViewCell.h; sourceTree = "<group>"; };
+		02F908F421F08030007569E9 /* DEWTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DEWTableViewCell.m; sourceTree = "<group>"; };
+		6535155F164341BF5FC30376 /* Pods-DEWTableViewManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DEWTableViewManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-DEWTableViewManager/Pods-DEWTableViewManager.release.xcconfig"; sourceTree = "<group>"; };
+		9C9B45E25F11F41E302EA454 /* libPods-DEWTableViewManager.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DEWTableViewManager.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1A6E9D8B2A1FEAB5AC4D84B /* Pods-DEWTableViewManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DEWTableViewManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DEWTableViewManager/Pods-DEWTableViewManager.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02F908AF21F01DF1007569E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D29EE3C38134FA29D68B0F4 /* libPods-DEWTableViewManager.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02F908A921F01DF1007569E9 = {
+			isa = PBXGroup;
+			children = (
+				02F908B421F01DF1007569E9 /* DEWTableViewManager */,
+				02F908B321F01DF1007569E9 /* Products */,
+				8C3F6EC8F16293B7A07F8D71 /* Pods */,
+				9E6B166401C8E8D4B7D8162F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		02F908B321F01DF1007569E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02F908B221F01DF1007569E9 /* DEWTableViewManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02F908B421F01DF1007569E9 /* DEWTableViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				02F908CB21F01E3B007569E9 /* TableManager */,
+				02F908B521F01DF1007569E9 /* AppDelegate.h */,
+				02F908B621F01DF1007569E9 /* AppDelegate.m */,
+				02F908B821F01DF1007569E9 /* ViewController.h */,
+				02F908B921F01DF1007569E9 /* ViewController.m */,
+				02F908F321F08030007569E9 /* DEWTableViewCell.h */,
+				02F908F421F08030007569E9 /* DEWTableViewCell.m */,
+				02F908BB21F01DF1007569E9 /* Main.storyboard */,
+				02F908BE21F01DF4007569E9 /* Assets.xcassets */,
+				02F908C021F01DF4007569E9 /* LaunchScreen.storyboard */,
+				02F908C321F01DF4007569E9 /* Info.plist */,
+				02F908C421F01DF4007569E9 /* main.m */,
+			);
+			path = DEWTableViewManager;
+			sourceTree = "<group>";
+		};
+		02F908CB21F01E3B007569E9 /* TableManager */ = {
+			isa = PBXGroup;
+			children = (
+				02F908D621F01F80007569E9 /* DEWTableManager.h */,
+				02F908D721F01F80007569E9 /* DEWTableManager.m */,
+				02F908DF21F02053007569E9 /* DEWTableSectionProtocol.h */,
+				02F908D921F01F9E007569E9 /* DEWTableStaticSection.h */,
+				02F908DA21F01F9E007569E9 /* DEWTableStaticSection.m */,
+				02F908DC21F0201C007569E9 /* DEWTableDynamicSection.h */,
+				02F908DD21F0201C007569E9 /* DEWTableDynamicSection.m */,
+				02F908E021F026B0007569E9 /* DEWTableStaticCellModel.h */,
+				02F908E121F026B0007569E9 /* DEWTableStaticCellModel.m */,
+			);
+			path = TableManager;
+			sourceTree = "<group>";
+		};
+		8C3F6EC8F16293B7A07F8D71 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1A6E9D8B2A1FEAB5AC4D84B /* Pods-DEWTableViewManager.debug.xcconfig */,
+				6535155F164341BF5FC30376 /* Pods-DEWTableViewManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9E6B166401C8E8D4B7D8162F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C9B45E25F11F41E302EA454 /* libPods-DEWTableViewManager.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02F908B121F01DF1007569E9 /* DEWTableViewManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02F908C821F01DF4007569E9 /* Build configuration list for PBXNativeTarget "DEWTableViewManager" */;
+			buildPhases = (
+				21FE031DFFF948337DF982F4 /* [CP] Check Pods Manifest.lock */,
+				02F908AE21F01DF1007569E9 /* Sources */,
+				02F908AF21F01DF1007569E9 /* Frameworks */,
+				02F908B021F01DF1007569E9 /* Resources */,
+				85F2E3629B5E81CB28CFFD6E /* [CP] Embed Pods Frameworks */,
+				2431569BD21774832E86CE0C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DEWTableViewManager;
+			productName = DEWTableViewManager;
+			productReference = 02F908B221F01DF1007569E9 /* DEWTableViewManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02F908AA21F01DF1007569E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Forcewith Co., Ltd.";
+				TargetAttributes = {
+					02F908B121F01DF1007569E9 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 02F908AD21F01DF1007569E9 /* Build configuration list for PBXProject "DEWTableViewManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02F908A921F01DF1007569E9;
+			productRefGroup = 02F908B321F01DF1007569E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02F908B121F01DF1007569E9 /* DEWTableViewManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02F908B021F01DF1007569E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02F908C221F01DF4007569E9 /* LaunchScreen.storyboard in Resources */,
+				02F908BF21F01DF4007569E9 /* Assets.xcassets in Resources */,
+				02F908BD21F01DF1007569E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21FE031DFFF948337DF982F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DEWTableViewManager-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2431569BD21774832E86CE0C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DEWTableViewManager/Pods-DEWTableViewManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85F2E3629B5E81CB28CFFD6E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DEWTableViewManager/Pods-DEWTableViewManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02F908AE21F01DF1007569E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02F908F521F08030007569E9 /* DEWTableViewCell.m in Sources */,
+				02F908BA21F01DF1007569E9 /* ViewController.m in Sources */,
+				02F908DB21F01F9E007569E9 /* DEWTableStaticSection.m in Sources */,
+				02F908E221F026B0007569E9 /* DEWTableStaticCellModel.m in Sources */,
+				02F908D821F01F80007569E9 /* DEWTableManager.m in Sources */,
+				02F908C521F01DF4007569E9 /* main.m in Sources */,
+				02F908DE21F0201C007569E9 /* DEWTableDynamicSection.m in Sources */,
+				02F908B721F01DF1007569E9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		02F908BB21F01DF1007569E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02F908BC21F01DF1007569E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		02F908C021F01DF4007569E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02F908C121F01DF4007569E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02F908C621F01DF4007569E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		02F908C721F01DF4007569E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02F908C921F01DF4007569E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1A6E9D8B2A1FEAB5AC4D84B /* Pods-DEWTableViewManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GMV72D9HJ7;
+				INFOPLIST_FILE = DEWTableViewManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Forcewith.DEWTableViewManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02F908CA21F01DF4007569E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6535155F164341BF5FC30376 /* Pods-DEWTableViewManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GMV72D9HJ7;
+				INFOPLIST_FILE = DEWTableViewManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Forcewith.DEWTableViewManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02F908AD21F01DF1007569E9 /* Build configuration list for PBXProject "DEWTableViewManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02F908C621F01DF4007569E9 /* Debug */,
+				02F908C721F01DF4007569E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02F908C821F01DF4007569E9 /* Build configuration list for PBXNativeTarget "DEWTableViewManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02F908C921F01DF4007569E9 /* Debug */,
+				02F908CA21F01DF4007569E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02F908AA21F01DF1007569E9 /* Project object */;
+}
