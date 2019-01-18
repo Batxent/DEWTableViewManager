@@ -1,0 +1,7 @@
+DEWTableViewManager.xcodeproj/xcuserdata/
+DEWTableViewManager.xcworkspace/
+Pods/
+*.swp
+Podfile.lock
+.DS_Store
+DEWTableViewManager.xcodeproj/project.xcworkspace/xcuserdata/
