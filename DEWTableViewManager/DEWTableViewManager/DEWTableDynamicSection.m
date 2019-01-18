@@ -10,7 +10,7 @@
 
 @implementation DEWTableDynamicSection
 
-- (instancetype)initWithCellIdenfier:(NSString *)idenfier
+- (instancetype)initWithCellIdentifier:(NSString *)identifier
                            dataArray:(NSArray *)dataArray
                            configure:(DEWTableConfigureBlock)configureBlock
                          didSelected:(DEWTableSelectBlock)selectedCellBlock;
@@ -19,7 +19,7 @@
     self = [super init];
     if (!self) return nil;
     
-    self.idenfier = idenfier;
+    self.identifier = identifier;
     self.cellConfigure = [configureBlock copy];
     self.cellSelected = [selectedCellBlock copy];
     
@@ -39,8 +39,8 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:self.idenfier forIndexPath:indexPath];
+ 
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:self.identifier forIndexPath:indexPath];
     if (self.cellConfigure) {
         id data = [self.dataArray objectAtIndex:indexPath.row];
         self.cellConfigure(cell, data);

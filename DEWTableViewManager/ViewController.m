@@ -58,7 +58,7 @@
         [dataArray addObject:[NSString stringWithFormat:@"%d",i]];
     }
     
-    DEWTableDynamicSection *section1 = [[DEWTableDynamicSection alloc]initWithCellIdenfier:@"dew" dataArray:dataArray configure:^(DEWTableViewCell *cell, NSString *data) {
+    DEWTableDynamicSection *section1 = [[DEWTableDynamicSection alloc]initWithCellIdentifier:@"dew" dataArray:dataArray configure:^(DEWTableViewCell *cell, NSString *data) {
         cell.nameLabel.text = data;
         cell.detailLabel.text = data;
     } didSelected:^(NSIndexPath *indexPath) {

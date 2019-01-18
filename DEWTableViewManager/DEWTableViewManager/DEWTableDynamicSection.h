@@ -28,18 +28,17 @@ typedef void(^DEWDynaicSectionCommitEditingBlock)(UITableViewCellEditingStyle ed
 @property (nonatomic, assign) NSInteger numberOfRows;
 
 //
-
 @property (nonatomic, strong) NSArray *dataArray;
 
 @property (nonatomic, assign) CGFloat rowHeight;
-@property (nonatomic, strong) NSString *idenfier;
+@property (nonatomic, strong) NSString *identifier;
 
 @property (nonatomic, copy) DEWDynaicSectionCanEditBlock canEdit;
 @property (nonatomic, copy) DEWDynaicSectionEditingStyleBlock editingStyle;
 @property (nonatomic, copy) DEWDynaicSectionCommitEditingBlock commitEditing;
 
 
-- (instancetype)initWithCellIdenfier:(NSString *)idenfier
+- (instancetype)initWithCellIdentifier:(NSString *)identifier
                            dataArray:(NSArray *)dataArray
                        configure:(DEWTableConfigureBlock)configureBlock
                      didSelected:(DEWTableSelectBlock)selectedCellBlock;

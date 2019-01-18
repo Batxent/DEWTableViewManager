@@ -81,7 +81,7 @@
 		02F908B421F01DF1007569E9 /* DEWTableViewManager */ = {
 			isa = PBXGroup;
 			children = (
-				02F908CB21F01E3B007569E9 /* TableManager */,
+				02F908F721F19C36007569E9 /* DEWTableViewManager */,
 				02F908B521F01DF1007569E9 /* AppDelegate.h */,
 				02F908B621F01DF1007569E9 /* AppDelegate.m */,
 				02F908B821F01DF1007569E9 /* ViewController.h */,
@@ -97,7 +97,7 @@
 			path = DEWTableViewManager;
 			sourceTree = "<group>";
 		};
-		02F908CB21F01E3B007569E9 /* TableManager */ = {
+		02F908F721F19C36007569E9 /* DEWTableViewManager */ = {
 			isa = PBXGroup;
 			children = (
 				02F908D621F01F80007569E9 /* DEWTableManager.h */,
@@ -110,7 +110,7 @@
 				02F908E021F026B0007569E9 /* DEWTableStaticCellModel.h */,
 				02F908E121F026B0007569E9 /* DEWTableStaticCellModel.m */,
 			);
-			path = TableManager;
+			path = DEWTableViewManager;
 			sourceTree = "<group>";
 		};
 		8C3F6EC8F16293B7A07F8D71 /* Pods */ = {
@@ -419,6 +419,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GMV72D9HJ7;
 				INFOPLIST_FILE = DEWTableViewManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -437,6 +438,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = GMV72D9HJ7;
 				INFOPLIST_FILE = DEWTableViewManager/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
